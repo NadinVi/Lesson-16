@@ -3,14 +3,12 @@
 const container = document.createElement("div");
 container.classList.add("container-wrapp");
 
-
-for(let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     const cell = document.createElement("div");
     cell.classList.add("number");
     cell.innerText = i;
 
     container.append(cell);
-    
 }
 
 document.body.append(container);

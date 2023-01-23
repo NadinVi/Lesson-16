@@ -15,7 +15,7 @@ block.addEventListener("focusin", inputFocus);
 block.addEventListener("focusout", inputFocusOut);
 
 function inputFocus() {
-    text.append(div);
+    block.append(div);
 };
 
 function inputFocusOut() {

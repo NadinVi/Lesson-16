@@ -7,7 +7,7 @@ const div = document.createElement("div");
 div.classList.add("box")
 div.style.width = "50px";
 div.style.height = "50px";
-div.style.backgroundColor = "red";
+div.style.backgroundColor = "pink";
 
 
 block.addEventListener("focusin", inputFocus);
